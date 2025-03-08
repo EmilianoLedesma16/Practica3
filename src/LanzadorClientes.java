@@ -2,7 +2,7 @@ import java.io.IOException;
 
 public class LanzadorClientes {
     public static void main(String[] args) {
-        int numClientes = 5; // Número de clientes a abrir
+        int numClientes = 8; // Número de clientes a abrir
 
         for (int i = 0; i < numClientes; i++) {
             try {

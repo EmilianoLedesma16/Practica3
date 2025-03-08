@@ -6,7 +6,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Servidor {
     private static final int PUERTO = 1234;
-    private static final int MAX_CLIENTES = 3; // Máximo de clientes permitidos
+    private static final int MAX_CLIENTES = 5; // Máximo de clientes permitidos
     private static CopyOnWriteArrayList<Thread> clientesActivos = new CopyOnWriteArrayList<>();
 
     public static void main(String[] args) {
